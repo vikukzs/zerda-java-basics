@@ -17,11 +17,13 @@ public class Player extends Card {
     }
 
     public void add() {
+        if (isPlayed()) {
 
+        }
     }
 
     @Override
     public String toString() {
-        return name + " played: " + color + value;
+        return name + " played: " + played.toString();
     }
 }

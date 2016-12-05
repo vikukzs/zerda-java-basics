@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Random;
 
 /**
  * Created by Zsuzsi on 2016. 12. 05..
@@ -8,12 +5,14 @@ import java.util.Random;
 public class Card {
     String color;
     int value;
+    boolean played = false;
 
+    public boolean isPlayed() {
+        return true;
+    }
 
     public Card(String color) {
-
         this.color = color;
-        this.value = value;
     }
 
     public Card() {

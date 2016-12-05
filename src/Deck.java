@@ -5,12 +5,10 @@ import java.util.Random;
 /**
  * Created by Zsuzsi on 2016. 12. 05..
  */
-public class Deck {
+public abstract class Deck {
     ArrayList<Card> cards = new ArrayList<>();
     ArrayList<Card> used = new ArrayList<>();
     ArrayList<String> colorList = new ArrayList<>(Arrays.asList("kor", "karo", "treff", "pikk"));
-
-
 
     public Deck() {
         Random r = new Random();
