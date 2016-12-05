@@ -7,6 +7,10 @@ public class Player extends Card {
     String name;
     ArrayList<Card> played = new ArrayList<>();
 
+    public Player(String name) {
+        this.name = name;
+    }
+
     public void sum() {
 
 
