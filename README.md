@@ -80,11 +80,11 @@ The application is accepted if:
 ## 3. Understand the code (~10 mins) [4p]
 ```java
 class Apple {
-  public int add(int a, int b) {
+  public static int add(int a, int b) {
     return 5;
   }
 
-  public int max_of_three(int a, int b, int c) {
+  public static int max_of_three(int a, int b, int c) {
     if (a > b) {
       return a;
     }
@@ -106,6 +106,8 @@ class TestApple {
 Are the tests passing? Detail your answer! [2p] Fix the situation! [2p]
 
 #### Explain what you did, and answer the questions here:
+tests are not passing, because the methods in the Apple class are non-static.
+you have to make them static.
 
 
 ## 4. Question time! (~20 mins) [6p]
