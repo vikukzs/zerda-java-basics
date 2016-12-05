@@ -5,23 +5,21 @@ import java.util.Random;
 /**
  * Created by Zsuzsi on 2016. 12. 05..
  */
-public class Card extends Deck {
+public class Card {
     String color;
     int value;
 
-    ArrayList<String> colorList = new ArrayList<>(Arrays.asList("kor", "karo", "treff", "pikk"));
 
-    public Card(String color, int value) {
-        Random r = new Random();
-        String randColor = colorList.get(r.nextInt(colorList.size()));
+    public Card(String color) {
 
-        this.color = randColor;
+        this.color = color;
         this.value = value;
     }
 
     public Card() {
 
     }
+
 
     public int getValue() {
         return value;

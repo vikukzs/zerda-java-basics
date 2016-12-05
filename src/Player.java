@@ -8,6 +8,7 @@ public class Player extends Card {
     ArrayList<Card> played = new ArrayList<>();
 
     public Player(String name) {
+
         this.name = name;
     }
 
