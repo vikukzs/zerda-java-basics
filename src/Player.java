@@ -13,7 +13,6 @@ public class Player extends Card {
 
     public void sum() {
 
-
     }
 
     public void add() {

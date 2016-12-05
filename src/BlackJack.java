@@ -31,6 +31,11 @@ public class BlackJack extends JPanel {
 
             }
         });
+
+        this.add(userPlayer);
+        this.add(housePlayer);
+        this.add(drawCard);
+        this.add(reset);
     }
 
 

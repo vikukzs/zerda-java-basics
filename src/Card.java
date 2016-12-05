@@ -14,6 +14,7 @@ public class Card extends Deck {
     public Card(String color, int value) {
         Random r = new Random();
         String randColor = colorList.get(r.nextInt(colorList.size()));
+
         this.color = randColor;
         this.value = value;
     }
