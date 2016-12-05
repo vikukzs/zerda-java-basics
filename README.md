@@ -17,12 +17,12 @@
     - Just the src directory should be committed
 - Create a package called `com.greenfox.exams.java` and work under that
 
-## 2. The BlackJack Application (~90 mins) [15p]
-The task is to create a `BlackJack` application where a `user` `Player` can play BlackJack with the `house` `Player`. The game should have a very simple graphical user interface with two labels (one for the user and one for the house) and two buttons for draw and for resetting the game.
+## 2. The com.greenfox.exams.java.BlackJack Application (~90 mins) [15p]
+The task is to create a `com.greenfox.exams.java.BlackJack` application where a `user` `com.greenfox.exams.java.Player` can play com.greenfox.exams.java.BlackJack with the `house` `com.greenfox.exams.java.Player`. The game should have a very simple graphical user interface with two labels (one for the user and one for the house) and two buttons for draw and for resetting the game.
 
 ![Start](bj_start.png)
 
-When a new game started a new `Deck` should be generated with 52 randomly ordered `Card`s in it.
+When a new game started a new `com.greenfox.exams.java.Deck` should be generated with 52 randomly ordered `com.greenfox.exams.java.Card`s in it.
 When the user hits the `drawCard` button the top card of the deck should be added to the users `played` cards. If the house's played cards sum is under 17 it will draw automatically. After drawing the labels should be updated.
 
 One card drawn:
@@ -35,7 +35,7 @@ Two cards drawn:
 
 **Layout is not important just put everything in one JPanel with the default layout (no need to change that)**
 
-When the user hits the `reset` button, a new Deck should be generated and players should be reset as well.
+When the user hits the `reset` button, a new com.greenfox.exams.java.Deck should be generated and players should be reset as well.
 
 ### Information on the elements
 - Tests will be run on your code
@@ -43,19 +43,19 @@ When the user hits the `reset` button, a new Deck should be generated and player
     - don't use visibility on fields
     - don't use accent in strings or in comments
     - otherwise tests will fail probably
-- The `BlackJack`
+- The `com.greenfox.exams.java.BlackJack`
     - should be a `JPanel`
-    - should have two buttons, a `user` and a `house` `Player`s and a `deck`
+    - should have two buttons, a `user` and a `house` `com.greenfox.exams.java.Player`s and a `deck`
     - should handle the button actions in one method
-- The `Deck`
+- The `com.greenfox.exams.java.Deck`
     - should contain two lists: `cards` and `used`, all cards should be in the cards list and after used it should go in to the used list.
     - you can use the `Collection.shuffle(list)` for shuffling the deck
     - if all cards are used `null` should be returned when drawing from the deck
-- The `Card`
+- The `com.greenfox.exams.java.Card`
     - should have a color and a value
     - should have a getter for the value
     - should be displayed as `"color value"` eg. `"karo 7"`
-- The `Player`
+- The `com.greenfox.exams.java.Player`
     - should have a name
     - should have a list where it stores its `played` cards
     - should be able to `sum` the value of its played cards
@@ -63,7 +63,7 @@ When the user hits the `reset` button, a new Deck should be generated and player
     - should be added to the panel and displayed as shown: `"Name played: color value..."` eg. `"User played: kor 7 karo 4 "`
 - In your main method
     - create a JFrame
-    - add BlackJack panel to it
+    - add com.greenfox.exams.java.BlackJack panel to it
     - make it visible
 
 ### Acceptance criteria

@@ -1,3 +1,5 @@
+package com.greenfox.exams.java;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -9,7 +11,7 @@ public class BlackJack extends JPanel {
 
     JLabel userPlayer = new JLabel();
     JLabel housePlayer = new JLabel();
-    JButton drawCard = new JButton("Draw a Card");
+    JButton drawCard = new JButton("Draw a com.greenfox.exams.java.Card");
     JButton reset = new JButton("New Game");
     Player user = new Player("User");
     Player house = new Player("House");

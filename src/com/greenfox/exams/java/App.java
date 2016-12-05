@@ -1,3 +1,5 @@
+package com.greenfox.exams.java;
+
 import javax.swing.*;
 import java.awt.*;
 
