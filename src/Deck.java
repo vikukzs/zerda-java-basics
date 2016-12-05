@@ -6,4 +6,13 @@ import java.util.ArrayList;
 public class Deck {
     ArrayList<Card> cards = new ArrayList<>();
     ArrayList<Card> used = new ArrayList<>();
+
+
+    public Deck() {
+        for (int i = 0; i < 53; i++) {
+            cards.add(new Card());
+
+        }
+    }
+
 }
