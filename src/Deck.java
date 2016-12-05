@@ -11,8 +11,9 @@ public class Deck {
     public Deck() {
         for (int i = 0; i < 53; i++) {
             cards.add(new Card());
-
         }
     }
+
+
 
 }

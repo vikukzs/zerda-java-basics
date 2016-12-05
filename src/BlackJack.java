@@ -5,5 +5,14 @@ import javax.swing.*;
  */
 public class BlackJack extends JPanel {
 
+    JLabel userPlayer = new JLabel();
+    JLabel housePlayer = new JLabel();
+    JButton drawCard = new JButton();
+    JButton reset = new JButton();
+
+    public BlackJack() {
+
+    }
+
 
 }

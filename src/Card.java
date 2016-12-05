@@ -18,6 +18,10 @@ public class Card extends Deck {
         this.value = value;
     }
 
+    public Card() {
+
+    }
+
     public int getValue() {
         return value;
     }
