@@ -107,16 +107,24 @@ Are the tests passing? Detail your answer! [2p] Fix the situation! [2p]
 
 #### Explain what you did, and answer the questions here:
 tests are not passing, because the methods in the Apple class are non-static.
-you have to make them static.
+i made the methods static.
 
 
 ## 4. Question time! (~20 mins) [6p]
 
 ### Where the abstract class is useful? [2p]
-#### Your answer:
+#### Your answer: it is useful when inheritance and polimorphism is used, it is meant to be used by other classes.
 
 ### Describe a method! Show the necessary parts and how are them called! [2p]
-#### Your answer:
-
+#### Your answer: it is a collection of statements, it is used to perform an operation.
+it has a header: access modifiers (public, private, protected, static), return type (void-no return, int, string, etc.), method name, parameters
+and a body.
 ### What is the constructor? When it is used? [2p]
+
 #### Your answer:
+the constructor initializes the object when it is created, it has the same name as the class.
+it has no return type
+you can set up initial values or the object
+all clases have constructors whether you define it or not, because java gives one as default
+
+
